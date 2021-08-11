@@ -7,6 +7,6 @@ const StoreController = require('../controllers/store');
 router.post("/registerStore", StoreController.registerStore);
 // http://Localhost:3001/api/role/listRole
 
-router.get("/listProduct", StoreController.listStore);
+router.get("/listStore", StoreController.listStore);
 
 module.exports = router;
